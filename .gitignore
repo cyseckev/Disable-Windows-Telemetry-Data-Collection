@@ -1,0 +1,20 @@
+# Ignore Windows junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore PowerShell history
+*.pshistory
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore IDE/workspace configs
+.vscode/
+.idea/

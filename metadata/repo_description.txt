@@ -1,0 +1,28 @@
+Disable-Windows-Telemetry-Data-Collection
+=========================================
+
+A professional PowerShell-based toolkit to harden Windows 10/11 systems
+by disabling telemetry, background data collection, and privacy-invasive
+features. 
+
+The repository includes:
+- Scripts to disable telemetry and unnecessary services
+- Optional removal of preinstalled apps and features
+- Audit tools to verify system configuration
+- Documentation with usage, rollback instructions, and hardening checklist
+
+Key features:
+- Disables Connected User Experiences and Telemetry (DiagTrack)
+- Stops MDM Push, Windows Error Reporting, and Delivery Optimization
+- Disables privacy-invasive scheduled tasks
+- Hardens DNS leak points (LLMNR, NCSI, NetBIOS)
+- Provides rollback commands for re-enabling services
+- Optional uninstall of Xbox, Retail Demo, and other built-in apps
+
+Target audience:
+- System administrators
+- Security professionals
+- Privacy-conscious users
+
+This repository follows best practices for Windows hardening while
+providing clear documentation and rollback options for safe deployment.
