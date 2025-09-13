@@ -21,29 +21,26 @@ The goal is to **maximize privacy, security, and OPSEC** while keeping the syste
 
 ## 📂 Repository Structure
 Disable-Windows-Telemetry-Data-Collection/
-│── README.md
-│── LICENSE
-│── .gitignore
-│── CONTRIBUTING.md
-│── CHANGELOG.md
-│
-├── scripts/
-│ ├── disable-telemetry.ps1
-│ ├── uninstall-telemetry.ps1
-│ └── audit-telemetry.ps1
-│
-├── docs/
-│ ├── usage.md
-│ ├── rollback.md
-│ └── checklist.md
-│
-└── metadata/
-└── repo_description.txt
+<br>│── README.md
+<br>│── LICENSE
+<br>│── .gitignore
+<br>│── CONTRIBUTING.md
+<br>│── CHANGELOG.md
+<br>│
+<br>├── scripts/
+<br>│ ├── disable-telemetry.ps1
+<br>│ ├── uninstall-telemetry.ps1
+<br>│ └── audit-telemetry.ps1
+<br>│
+<br>├── docs/
+<br>│ ├── usage.md
+<br>│ ├── rollback.md
+<br>│ └── checklist.md
+<br>│
+<br>└── metadata/
+<br>└── repo_description.txt
 
-yaml
-Code kopieren
 
----
 
 ## 🚀 Quick Start
 ```powershell
@@ -72,7 +69,4 @@ This project is provided for educational and security research purposes only.
 Use at your own risk – certain features like Windows Error Reporting and Cortana will be disabled permanently.
 Always test in a virtual machine or lab environment before applying on production systems.
 
-<div align="center">
 🔒 Hardening Windows – One script at a time.
-
-</div>
